@@ -7,7 +7,7 @@ const About = () => {
       <section className="about">
         <figure>
           <Animation animationClass="slideInLeft">
-            <img src="aboutbillede.webp" alt="Billede af mig" />
+            <img src="/aboutbillede.webp" alt="Billede af mig" />
           </Animation>
         </figure>
         <article>
@@ -100,7 +100,7 @@ const About = () => {
         <div className="udtalelse-wrapper">
           <article>
             <Animation animationClass="slideInLeft">
-              <img src="valdemar.webp" alt="Billede af Valdemar" />
+              <img src="/valdemar.webp" alt="Billede af Valdemar" />
               <h3>Valdemar Berg</h3>
               <h4>Tidl. kollega</h4>
               <p>
@@ -117,7 +117,7 @@ const About = () => {
 
           <article>
             <Animation animationClass="slideInBottom">
-              <img src="louise.webp" alt="Billede af Louise" />
+              <img src="/louise.webp" alt="Billede af Louise" />
               <h3>Louise Thysen</h3>
               <h4>Medstuderende</h4>
               <p>
@@ -131,7 +131,7 @@ const About = () => {
 
           <article>
             <Animation animationClass="slideInRight">
-              <img src="emil.webp" alt="" />
+              <img src="/emil.webp" alt="" />
               <h3>Emil Klein</h3>
               <h4>Tidl. kollega</h4>
               <p>

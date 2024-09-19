@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
 
   if (command === "build") {
     // This is the build mode
-    config.base = "/portfolio/";
+    config.base = "portfolio/";
   }
 
   return config;
