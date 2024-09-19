@@ -14,7 +14,7 @@ import About from "./pages/About/About.jsx";
 
 function App() {
   return (
-    <Router>
+    <>
       <NavBar />
       <ScrollToTop />
       <Routes>
@@ -31,7 +31,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
