@@ -75,8 +75,8 @@ const NavBar = () => {
   return (
     <nav className="MobileNavigation">
       <Link to="/">
-        <img src="/logo.webp" className="logo primary" alt="Logo blå" />
-        <img src="/logohvid.webp" className="logo secondary" alt="Logo hvid" />
+        <img src="./logo.webp" className="logo primary" alt="Logo blå" />
+        <img src="./logohvid.webp" className="logo secondary" alt="Logo hvid" />
       </Link>
       {click ? (
         <TfiClose
