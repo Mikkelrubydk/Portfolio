@@ -25,7 +25,7 @@ const OmMig = () => {
               <button className="forsideknap">Læs mere</button>
             </Link>
             <a
-              href="./mikkelruby-cv.pdf"
+              href="../../../materialer/mikkelruby-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
