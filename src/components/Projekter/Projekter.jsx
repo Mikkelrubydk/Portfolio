@@ -37,7 +37,7 @@ const Projekter = () => {
             <div className="projekt-container">
               <article>
                 <figure>
-                  <img src="../../public/hella.webp" alt="Hella Website" />
+                  <img src="/hella.webp" alt="Hella Website" />
                   <figcaption
                     className={`imgtext ${isTextVisible ? "visible" : ""}`}
                     onClick={textReveal}

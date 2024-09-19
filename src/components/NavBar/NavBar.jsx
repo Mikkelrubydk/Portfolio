@@ -74,11 +74,7 @@ const NavBar = () => {
   return (
     <nav className="MobileNavigation">
       <a href="/">
-        <img
-          src="../public/logo.webp"
-          className="logo primary"
-          alt="Logo blå"
-        />
+        <img src="/logo.webp" className="logo primary" alt="Logo blå" />
         <img
           src="../public/logohvid.webp"
           className="logo secondary"
