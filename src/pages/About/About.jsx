@@ -48,47 +48,47 @@ const About = () => {
         <Animation animationClass="slideInBottom">
           <div className="program-wrapper">
             <figure>
-              <img src="html.svg" alt="HTML Logo" />
+              <img src="/html.svg" alt="HTML Logo" />
               <figcaption>HTML5</figcaption>
             </figure>
 
             <figure>
-              <img src="css.svg" alt="CSS Logo" />
+              <img src="/css.svg" alt="CSS Logo" />
               <figcaption>CSS3</figcaption>
             </figure>
 
             <figure>
-              <img src="js.svg" alt="JavaScript Logo" />
+              <img src="/js.svg" alt="JavaScript Logo" />
               <figcaption>JavaScript</figcaption>
             </figure>
 
             <figure>
-              <img src="react.svg" alt="React Logo" />
+              <img src="/react.svg" alt="React Logo" />
               <figcaption>React</figcaption>
             </figure>
 
             <figure>
-              <img src="githubblaa.svg" alt="GitHub Logo" />
+              <img src="/githubblaa.svg" alt="GitHub Logo" />
               <figcaption>GitHub</figcaption>
             </figure>
 
             <figure>
-              <img src="vsc.svg" alt="Visual Studio Code Logo" />
+              <img src="/vsc.svg" alt="Visual Studio Code Logo" />
               <figcaption>VSC</figcaption>
             </figure>
 
             <figure>
-              <img src="ps.svg" alt="Photoshop Logo" />
+              <img src="/ps.svg" alt="Photoshop Logo" />
               <figcaption>Photoshop</figcaption>
             </figure>
 
             <figure>
-              <img src="ai.svg" alt="Illustrator Logo" />
+              <img src="/ai.svg" alt="Illustrator Logo" />
               <figcaption>Illustrator</figcaption>
             </figure>
 
             <figure>
-              <img src="figma.svg" alt="Figma Logo" />
+              <img src="/figma.svg" alt="Figma Logo" />
               <figcaption>Figma</figcaption>
             </figure>
           </div>
