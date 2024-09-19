@@ -32,9 +32,9 @@ const InteractiveStorytelling = () => {
             dokumentation af vores arbejde.
           </p>
           <div className="knap">
-            <a href="/">
+            <Link to="/">
               <button className="forsideknap">Se andre projekter</button>
-            </a>
+            </Link>
             <a href="https://atombomben.mikkelruby.dk/">
               <button className="forsideknap">Besøg hjemmesiden</button>
             </a>

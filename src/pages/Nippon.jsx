@@ -31,9 +31,9 @@ const Nippon = () => {
             prototype, der demonstrerede de ønskede interaktive features.
           </p>
           <div className="knap">
-            <a href="/">
+            <Link to="/">
               <button className="forsideknap">Se andre projekter</button>
-            </a>
+            </Link>
             <a href="https://nippon.mikkelruby.dk/">
               <button className="forsideknap">Besøg hjemmesiden</button>
             </a>

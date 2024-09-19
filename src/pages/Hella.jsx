@@ -28,9 +28,9 @@ const Hella = () => {
             deres publikum.
           </p>
           <div className="knap">
-            <a href="/">
+            <Link to="/">
               <button className="forsideknap">Se andre projekter</button>
-            </a>
+            </Link>
             <a href="https://hella.mikkelruby.dk/">
               <button className="forsideknap">Besøg hjemmesiden</button>
             </a>

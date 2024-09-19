@@ -73,10 +73,10 @@ const NavBar = () => {
 
   return (
     <nav className="MobileNavigation">
-      <a href="/">
+      <Link to="/">
         <img src="logo.webp" className="logo primary" alt="Logo blå" />
         <img src="logohvid.webp" className="logo secondary" alt="Logo hvid" />
-      </a>
+      </Link>
       {click ? (
         <TfiClose
           className="HamburgerMenu"

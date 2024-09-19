@@ -33,9 +33,9 @@ const Streetfood = () => {
             brugeroplevelse på både smartphones og desktop.
           </p>
           <div className="knap">
-            <a href="/">
+            <Link to="/">
               <button className="forsideknap">Se andre projekter</button>
-            </a>
+            </Link>
             <a href="https://aarhusstreetfood.mikkelruby.dk/">
               <button className="forsideknap">Besøg hjemmesiden</button>
             </a>
