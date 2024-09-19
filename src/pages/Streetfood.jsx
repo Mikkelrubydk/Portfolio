@@ -1,5 +1,6 @@
 import "./Pages.css";
 import Animation from "../components/Animation/Animation.jsx";
+import { Link } from "react-router-dom";
 
 const Streetfood = () => {
   return (

@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { CiMenuFries } from "react-icons/ci";
 import { TfiClose } from "react-icons/tfi";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
