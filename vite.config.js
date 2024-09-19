@@ -9,8 +9,8 @@ export default defineConfig(({ command }) => {
   };
 
   if (command === "build") {
-    // This is the build mode
-    config.base = "./"; // Use relative base for production
+    // Use the base folder when building for GitHub Pages
+    config.base = "/portfolio/"; // Specify your repo name for GitHub Pages
   }
 
   return config;
