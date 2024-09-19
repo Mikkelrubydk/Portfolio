@@ -25,7 +25,7 @@ const OmMig = () => {
               <button className="forsideknap">Læs mere</button>
             </Link>
             <a
-              href="../../materialer/mikkelruby-cv.pdf"
+              href="/materialer/mikkelruby-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -38,7 +38,7 @@ const OmMig = () => {
       <Animation animationClass="slideInRight">
         <figure>
           <div className="fotofilter"></div>
-          <img src="/ommigfoto.webp" alt="Billede af mig" />
+          <img src="/public/ommigfoto.webp" alt="Billede af mig" />
         </figure>
       </Animation>
     </section>

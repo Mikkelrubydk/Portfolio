@@ -37,7 +37,7 @@ const Projekter = () => {
             <div className="projekt-container">
               <article>
                 <figure>
-                  <img src="/hella.webp" alt="Hella Website" />
+                  <img src="/public/hella.webp" alt="Hella Website" />
                   <figcaption
                     className={`imgtext ${isTextVisible ? "visible" : ""}`}
                     onClick={textReveal}
@@ -67,7 +67,10 @@ const Projekter = () => {
             <div className="projekt-container">
               <article>
                 <figure>
-                  <img src="/troejborgbryg.webp" alt="TrøjborgBryg Website" />
+                  <img
+                    src="/public/troejborgbryg.webp"
+                    alt="TrøjborgBryg Website"
+                  />
                   <figcaption
                     className={`imgtext ${isTextVisible ? "visible" : ""}`}
                     onClick={textReveal}
@@ -99,7 +102,7 @@ const Projekter = () => {
             <div className="projekt-container">
               <article>
                 <figure>
-                  <img src="/nippon.webp" alt="Nippon Website" />
+                  <img src="/public/nippon.webp" alt="Nippon Website" />
                   <figcaption
                     className={`imgtext ${isTextVisible ? "visible" : ""}`}
                     onClick={textReveal}
@@ -129,7 +132,7 @@ const Projekter = () => {
             <div className="projekt-container">
               <article>
                 <figure>
-                  <img src="/studiespar.webp" alt="Studiespar Website" />
+                  <img src="/public/studiespar.webp" alt="Studiespar Website" />
                   <figcaption
                     className={`imgtext ${isTextVisible ? "visible" : ""}`}
                     onClick={textReveal}
@@ -161,7 +164,10 @@ const Projekter = () => {
             <div className="projekt-container">
               <article>
                 <figure>
-                  <img src="/streetfood.webp" alt="Aarhus Streetfood Website" />
+                  <img
+                    src="/public/streetfood.webp"
+                    alt="Aarhus Streetfood Website"
+                  />
                   <figcaption
                     className={`imgtext ${isTextVisible ? "visible" : ""}`}
                     onClick={textReveal}
@@ -195,7 +201,7 @@ const Projekter = () => {
               <article>
                 <figure>
                   <img
-                    src="/interactive-storytelling.webp"
+                    src="/public/interactive-storytelling.webp"
                     alt="Interactive Storytelling Website"
                   />
                   <figcaption
@@ -213,7 +219,7 @@ const Projekter = () => {
                       måde.
                     </p>
                     <div className="projektknapper">
-                      <Link to="/interactive-storytelling">
+                      <Link to="/public/interactive-storytelling">
                         <button>Læs mere</button>
                       </Link>
                       <a

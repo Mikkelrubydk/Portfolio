@@ -7,7 +7,7 @@ const About = () => {
       <section className="about">
         <figure>
           <Animation animationClass="slideInLeft">
-            <img src="/aboutbillede.webp" alt="Billede af mig" />
+            <img src="/public/aboutbillede.webp" alt="Billede af mig" />
           </Animation>
         </figure>
         <article>
@@ -48,47 +48,47 @@ const About = () => {
         <Animation animationClass="slideInBottom">
           <div className="program-wrapper">
             <figure>
-              <img src="/html.svg" alt="HTML Logo" />
+              <img src="/public/html.svg" alt="HTML Logo" />
               <figcaption>HTML5</figcaption>
             </figure>
 
             <figure>
-              <img src="/css.svg" alt="CSS Logo" />
+              <img src="/public/css.svg" alt="CSS Logo" />
               <figcaption>CSS3</figcaption>
             </figure>
 
             <figure>
-              <img src="/js.svg" alt="JavaScript Logo" />
+              <img src="/public/js.svg" alt="JavaScript Logo" />
               <figcaption>JavaScript</figcaption>
             </figure>
 
             <figure>
-              <img src="/react.svg" alt="React Logo" />
+              <img src="/public/react.svg" alt="React Logo" />
               <figcaption>React</figcaption>
             </figure>
 
             <figure>
-              <img src="/githubblaa.svg" alt="GitHub Logo" />
+              <img src="/public/githubblaa.svg" alt="GitHub Logo" />
               <figcaption>GitHub</figcaption>
             </figure>
 
             <figure>
-              <img src="/vsc.svg" alt="Visual Studio Code Logo" />
+              <img src="/public/vsc.svg" alt="Visual Studio Code Logo" />
               <figcaption>VSC</figcaption>
             </figure>
 
             <figure>
-              <img src="/ps.svg" alt="Photoshop Logo" />
+              <img src="/public/ps.svg" alt="Photoshop Logo" />
               <figcaption>Photoshop</figcaption>
             </figure>
 
             <figure>
-              <img src="/ai.svg" alt="Illustrator Logo" />
+              <img src="/public/ai.svg" alt="Illustrator Logo" />
               <figcaption>Illustrator</figcaption>
             </figure>
 
             <figure>
-              <img src="/figma.svg" alt="Figma Logo" />
+              <img src="/public/figma.svg" alt="Figma Logo" />
               <figcaption>Figma</figcaption>
             </figure>
           </div>
@@ -100,7 +100,7 @@ const About = () => {
         <div className="udtalelse-wrapper">
           <article>
             <Animation animationClass="slideInLeft">
-              <img src="/valdemar.webp" alt="Billede af Valdemar" />
+              <img src="/public/valdemar.webp" alt="Billede af Valdemar" />
               <h3>Valdemar Berg</h3>
               <h4>Tidl. kollega</h4>
               <p>
@@ -117,7 +117,7 @@ const About = () => {
 
           <article>
             <Animation animationClass="slideInBottom">
-              <img src="/louise.webp" alt="Billede af Louise" />
+              <img src="/public/louise.webp" alt="Billede af Louise" />
               <h3>Louise Thysen</h3>
               <h4>Medstuderende</h4>
               <p>
@@ -131,7 +131,7 @@ const About = () => {
 
           <article>
             <Animation animationClass="slideInRight">
-              <img src="/emil.webp" alt="" />
+              <img src="/public/emil.webp" alt="" />
               <h3>Emil Klein</h3>
               <h4>Tidl. kollega</h4>
               <p>

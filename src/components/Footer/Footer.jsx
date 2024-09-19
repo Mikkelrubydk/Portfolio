@@ -46,21 +46,21 @@ const Footer = () => {
               aria-label="LinkedIn"
               target="_blank"
             >
-              <img src="/linkedin2.svg" alt="LinkedIn Logo" />
+              <img src="/public/linkedin2.svg" alt="LinkedIn Logo" />
             </a>
             <a
               href="https://www.instagram.com/mikkelruby"
               aria-label="Instagram"
               target="_blank"
             >
-              <img src="/insta.svg" alt="Instagram Logo" />
+              <img src="/public/insta.svg" alt="Instagram Logo" />
             </a>
             <a
               href="https://www.facebook.com/mikkelruby"
               aria-label="Facebook"
               target="_blank"
             >
-              <img src="/facebook.svg" alt="Facebook Logo" />
+              <img src="/public/facebook.svg" alt="Facebook Logo" />
             </a>
           </figure>
         </Animation>
@@ -76,7 +76,7 @@ const Footer = () => {
           </p>
           <div className="knap">
             <a
-              href="../../materialer/mikkelruby-cv.pdf"
+              href="/materialer/mikkelruby-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="forsideknap"
