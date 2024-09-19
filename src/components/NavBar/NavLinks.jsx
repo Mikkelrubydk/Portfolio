@@ -1,62 +1,21 @@
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 const NavLinks = () => {
-  const scrollTo = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
-
   return (
     <nav className="NavLinks">
       <ul>
         <li>
-          <a
-            href="#forside"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollTo("forside");
-            }}
-          >
-            Hjem
-          </a>
+          <Link to="/">Hjem</Link>
         </li>
         <li>
-          <a
-            href="#kompetencer"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollTo("kompetencer");
-            }}
-          >
-            Kompetencer
-          </a>
+          <Link to="/">Kompetencer</Link>
         </li>
         <li>
-          <a
-            href="#ommig"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollTo("ommig");
-            }}
-          >
-            Om mig
-          </a>
+          <Link to="/">Om mig</Link>
         </li>
         <li>
-          <a
-            href="#projekter"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollTo("projekter");
-            }}
-          >
-            Projekter
-          </a>
+          <Link to="/">Projekter</Link>
         </li>
 
         <figure className="socials">
