@@ -1,0 +1,102 @@
+.ommig {
+  background-color: var(--mørkeblå);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+.ommig article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ommig article h2 {
+  color: white;
+  text-align: left;
+}
+
+.ommig article p {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+.ommig figure {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.fotofilter {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(225, 225, 225, 0.12);
+  filter: blur(25px);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ommig figure img {
+  width: 100%;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+}
+
+.knap {
+  gap: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+}
+
+/* Computervisning */
+@media (min-width: 1024px) {
+  .ommig {
+    flex-direction: row;
+    height: 100vh;
+    padding: 50px;
+  }
+
+  .ommig figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .ommig .animated-section {
+    display: flex;
+    width: 50%;
+  }
+
+  .ommig article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ommig article p {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .ommig article h2 {
+    text-align: center;
+  }
+
+  .ommig figure img {
+    width: 80%;
+  }
+}

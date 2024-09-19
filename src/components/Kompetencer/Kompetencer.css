@@ -1,0 +1,114 @@
+.kompetencer {
+  background-color: var(--beige);
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+}
+
+.forsideoverskrift {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+  font-size: 11vw;
+  color: rgba(22, 49, 81, 1);
+  font-weight: 600;
+}
+
+.kompetencer h3 {
+  font-size: 5vw;
+  font-weight: 600;
+}
+
+.kompetencecontainer article div img {
+  display: flex;
+  width: 70px;
+  margin: 20px 0;
+}
+
+.kompetencer p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.kompetencecontainer article {
+  margin: 50px 0;
+}
+
+@media (min-width: 768px) {
+}
+
+/* Computervisning */
+@media (min-width: 1024px) {
+  .kompetencer {
+    padding: 52px;
+    height: 100vh;
+    padding: 50px;
+  }
+
+  .kompetencecontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 50px;
+    justify-content: center;
+    padding: 50px 150px;
+  }
+
+  .flex-centrering {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .kompetencer h3 {
+    margin-bottom: 20px;
+    font-size: 2vw;
+  }
+
+  .forsideoverskrift {
+    font-size: 4vw;
+    justify-content: center;
+    z-index: 5;
+  }
+
+  .kompetencecontainer div {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+  }
+
+  .blurredCircle {
+    position: absolute;
+    bottom: 0;
+    width: 60vw;
+    height: 60vw;
+    right: -350px;
+    bottom: -350px;
+    filter: blur(20px);
+    border-radius: 50%;
+    background-color: rgba(22, 49, 81, 0.25);
+  }
+
+  .kompetencecontainer article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .kompetencecontainer p {
+    display: flex;
+  }
+
+  .kompetencecontainer article div img {
+    width: 70px;
+    height: fit-content;
+    margin-right: 20px;
+  }
+}

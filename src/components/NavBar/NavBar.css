@@ -1,0 +1,135 @@
+/*NavBar.css*/
+
+.NavLinks ul {
+  width: 100%;
+}
+
+.MobileNavigation img {
+  width: 200px;
+  margin-left: 20px;
+}
+.MobileNavigation {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  transition: 0.2s ease-in-out;
+}
+
+.isScrolled {
+  box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.2);
+  background-color: var(--mørkeblå);
+  transition: 0.2s ease-in-out;
+}
+
+.HamburgerMenu {
+  position: absolute;
+  right: 4%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.NavLinks {
+  z-index: 999;
+}
+
+.NavLinks ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0vh;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(22, 49, 81, 0.5);
+  backdrop-filter: blur(30px);
+  list-style: none;
+  font-size: 40px;
+  font-family: "Pathway Extreme", sans-serif;
+  gap: 10%;
+  padding-left: 50px;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.NavLinks a {
+  position: relative;
+}
+
+.NavLinks a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  opacity: 0.6;
+  bottom: -3px;
+  transition: width 0.3s ease;
+}
+
+.NavLinks a:hover::after {
+  width: 100%;
+}
+.logo.primary {
+  display: none;
+  width: 175px;
+}
+
+.logo.secondary {
+  display: block;
+  width: 175px;
+}
+
+.socials {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+  margin: 5px;
+}
+
+.socials a img:hover {
+  opacity: 1;
+}
+
+.socials a::after {
+  display: none;
+}
+
+@media (min-width: 768px) {
+}
+
+/* Computervisning */
+@media (min-width: 1024px) {
+  .NavLinks ul {
+    width: 40%;
+  }
+
+  .HamburgerMenu {
+    right: 2%;
+  }
+
+  .MobileNavigation {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .logo.primary {
+    display: block;
+    width: 200px;
+  }
+
+  .logo.secondary {
+    display: none;
+    width: 200px;
+  }
+}

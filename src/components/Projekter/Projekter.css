@@ -1,0 +1,201 @@
+.projekter {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  background-color: var(--beige);
+  padding: 20px;
+  height: 50vh;
+}
+
+.projekter .forsideoverskrift {
+  margin-bottom: 0;
+}
+
+.projekt-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.projekt-container:first-child {
+  color: var(--mørkeblå);
+}
+
+.projekt-container figure {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.projekt-container img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.projekt-container .imgtext {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  opacity: 0;
+}
+
+.imgtext.visible {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.6);
+  transition: background 0.3s ease-in-out;
+}
+
+.imgtext h2 {
+  font-size: 5vw;
+}
+
+.imgtext p {
+  width: 80%;
+  text-align: left;
+  line-height: 2;
+  display: none;
+}
+
+.projektknapper {
+  display: flex;
+  gap: 20px;
+}
+
+.projektknapper button {
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: 0.6s ease-in-out;
+  border-radius: 5px;
+}
+
+.projektknapper button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.6s ease-in-out;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  display: none;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li button:before {
+  font-size: 15px !important;
+  color: var(--mørkeblå) !important;
+  margin-top: 20px !important;
+}
+
+@media (min-width: 768px) {
+}
+
+/* Computervisning */
+@media (min-width: 1024px) {
+  .blurredCircle2 {
+    position: absolute;
+    bottom: -350px;
+    width: 60vw;
+    height: 60vw;
+    right: -350px;
+    filter: blur(20px);
+    border-radius: 50%;
+    background-color: rgba(22, 49, 81, 0.25);
+    z-index: -1;
+  }
+
+  .projekter {
+    height: 100vh;
+    overflow: hidden;
+    z-index: 2;
+    padding: 50px;
+  }
+
+  .imgtext h2 {
+    font-size: 35px;
+  }
+
+  .projekt-container img {
+    width: 90%;
+  }
+
+  .projekt-container .imgtext {
+    width: 90%;
+  }
+
+  .imgtext p {
+    display: block;
+  }
+
+  .projekt-container figure {
+    width: 70%;
+  }
+
+  .projektknapper button {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    display: block;
+  }
+
+  .slick-prev,
+  .slick-next {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    z-index: 5 !important;
+    background: none !important;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px !important;
+    color: var(--mørkeblå) !important;
+  }
+
+  .slick-prev {
+    left: 10% !important;
+  }
+
+  .slick-next {
+    right: 10% !important;
+  }
+
+  .projekt-container figure:hover .imgtext {
+    background: rgba(0, 0, 0, 0.6);
+    transition: background 0.3s ease-in-out;
+    opacity: 1;
+  }
+}

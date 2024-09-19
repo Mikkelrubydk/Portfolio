@@ -1,0 +1,73 @@
+:root {
+  --mørkeblå: rgba(22, 49, 81, 1);
+  --beige: rgba(233, 230, 220, 1);
+  --lyseblå: rgba(95, 128, 158, 0.5);
+  --hvid: rgba(255, 255, 255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--beige);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Pathway Extreme", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Pathway Extreme", sans-serif;
+  font-weight: 700;
+}
+
+.forsideknap {
+  padding: 10px 15px;
+  font-family: "Pathway Extreme", sans-serif;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: 0.6s ease-in-out;
+  border-radius: 5px;
+}
+
+.forsideknap:hover {
+  background-color: white;
+  color: black;
+  transition: 0.6s ease-in-out;
+}
+
+.knap {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+}
+
+/* Computervisning */
+@media (min-width: 1024px) {
+  .knap {
+    display: flex;
+    width: 80%;
+    align-items: flex-start;
+  }
+}
