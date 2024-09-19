@@ -4,12 +4,12 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import HomePage from "./components/HomePage.jsx";
-import Hella from "./pages/Hella"; // Komponent til Hella-projektet
+import Hella from "./pages/Hella";
 import TroejborgBryg from "./pages/Troejborgbryg.jsx";
-import Nippon from "./pages/Nippon"; // Komponent til Nippon-projektet
-import StudieSpar from "./pages/StudieSpar"; // Komponent til StudieSpar-projektet
-import Streetfood from "./pages/Streetfood"; // Komponent til Aarhus Streetfood-projektet
-import InteractiveStorytelling from "./pages/InteractiveStorytelling"; // Komponent til Interactive Storytelling-projektet
+import Nippon from "./pages/Nippon";
+import StudieSpar from "./pages/StudieSpar";
+import Streetfood from "./pages/Streetfood";
+import InteractiveStorytelling from "./pages/InteractiveStorytelling";
 import About from "./pages/About/About.jsx";
 
 function App() {

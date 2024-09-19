@@ -6,7 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/portfolio/"}>
+    <BrowserRouter
+      basename={import.meta.env.MODE === "development" ? "/" : "/portfolio/"}
+    >
       <App />
     </BrowserRouter>
   </StrictMode>
