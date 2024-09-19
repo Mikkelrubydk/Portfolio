@@ -5,12 +5,12 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: "/",
+    base: "/", // Base for development mode
   };
 
   if (command === "build") {
     // This is the build mode
-    config.base = "/portfolio/";
+    config.base = "./"; // Use relative base for production
   }
 
   return config;
