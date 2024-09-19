@@ -38,7 +38,7 @@ const OmMig = () => {
       <Animation animationClass="slideInRight">
         <figure>
           <div className="fotofilter"></div>
-          <img src="/ommigfoto.webp" alt="Billede af mig" />
+          <img src="ommigfoto.webp" alt="Billede af mig" />
         </figure>
       </Animation>
     </section>

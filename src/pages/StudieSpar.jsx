@@ -7,7 +7,7 @@ const StudieSpar = () => {
       <figure>
         <Animation animationClass="slideInLeft">
           <img
-            src="/studiesparmockup.webp"
+            src="studiesparmockup.webp"
             alt="Mockup af StudieSpar hjemmeside"
           />
         </Animation>

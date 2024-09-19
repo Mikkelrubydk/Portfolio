@@ -86,7 +86,7 @@ const LandingPage = () => {
   return (
     <section className="forside" id="forside">
       <figure>
-        <img src="/forsidefoto.webp" alt="Billede af mig" />
+        <img src="forsidefoto.webp" alt="Billede af mig" />
       </figure>
 
       <article>
@@ -100,7 +100,7 @@ const LandingPage = () => {
                 target="_blank"
                 href="https://github.com/Mikkelrubydk?tab=repositories"
               >
-                <img src="/github.webp" alt="GitHub Logo" />
+                <img src="github.webp" alt="GitHub Logo" />
               </a>
             </div>
             <h2 className="front">FRONT</h2>
@@ -113,7 +113,7 @@ const LandingPage = () => {
 
       <section className="scrollDown" onClick={scrollDown}>
         <h3>Scroll</h3>
-        <img src="/pilned.png" alt="Pil ned" />
+        <img src="pilned.png" alt="Pil ned" />
       </section>
 
       <article className="forsidetekst">

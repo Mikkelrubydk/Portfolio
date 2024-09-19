@@ -7,7 +7,7 @@ const InteractiveStorytelling = () => {
       <figure>
         <Animation animationClass="slideInLeft">
           <img
-            src="/atombombenmockup.webp"
+            src="atombombenmockup.webp"
             alt="Mockup af Atombombens hjemmeside"
           />
         </Animation>

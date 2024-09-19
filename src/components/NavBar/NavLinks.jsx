@@ -19,13 +19,13 @@ const NavLinks = () => {
 
         <figure className="socials">
           <a href="https://github.com/Mikkelrubydk" target="_blank">
-            <img src="/github.svg" alt="Github Logo" />
+            <img src="github.svg" alt="Github Logo" />
           </a>
           <a
             href="https://www.linkedin.com/in/mikkel-h%C3%B8j-ruby-b5531228b/"
             target="_blank"
           >
-            <img src="/linkedin.svg" alt="Linkedin Logo" />
+            <img src="linkedin.svg" alt="Linkedin Logo" />
           </a>
         </figure>
       </ul>
