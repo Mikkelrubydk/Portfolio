@@ -86,7 +86,7 @@ const LandingPage = () => {
   return (
     <section className="forside" id="forside">
       <figure>
-        <img src="/forsidefoto.webp" alt="Billede af mig" />
+        <img src="./forsidefoto.webp" alt="Billede af mig" />
       </figure>
 
       <article>
