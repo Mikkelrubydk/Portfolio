@@ -4,8 +4,7 @@
   overflow: hidden;
   z-index: 2;
   background-color: var(--beige);
-  padding: 20px;
-  margin-bottom: 100px;
+  padding: 20px 0 100px 0;
 }
 
 .projekter .forsideoverskrift {
@@ -135,6 +134,7 @@
     overflow: hidden;
     z-index: 2;
     padding: 50px;
+    margin-bottom: 0px;
   }
 
   .imgtext h2 {
