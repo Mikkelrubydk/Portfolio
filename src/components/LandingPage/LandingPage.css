@@ -111,7 +111,7 @@
   }
 
   .forside figure img {
-    height: 725px;
+    height: 700px;
     position: absolute;
     width: auto;
     bottom: 0;
@@ -144,7 +144,7 @@
 
   .frontbackcontainer {
     display: flex;
-    gap: 185px;
+    gap: 170px;
     margin-bottom: -50px;
     margin-top: 0;
   }
