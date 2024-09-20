@@ -76,7 +76,7 @@ const Footer = () => {
           </p>
           <div className="knap">
             <a
-              href="/materialer/mikkelruby-cv.pdf"
+              href="materialer/mikkelruby-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="forsideknap"
