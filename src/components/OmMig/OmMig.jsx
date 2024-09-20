@@ -1,6 +1,7 @@
 import "../OmMig/OmMig.css";
 import { Link } from "react-router-dom";
 import Animation from "../Animation/Animation.jsx";
+import Materialer from "../../../materialer/mikkelruby-cv.pdf";
 
 const OmMig = () => {
   return (
@@ -24,11 +25,7 @@ const OmMig = () => {
             <Link to="/about">
               <button className="forsideknap">Læs mere</button>
             </Link>
-            <a
-              href="materialer/mikkelruby-cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={Materialer} target="_blank" rel="noopener noreferrer">
               <button className="forsideknap">Hent CV</button>
             </a>
           </div>

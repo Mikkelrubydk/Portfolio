@@ -1,5 +1,6 @@
 import "../Footer/Footer.css";
 import Animation from "../Animation/Animation.jsx";
+import Materialer from "../../../materialer/mikkelruby-cv.pdf";
 
 const Footer = () => {
   return (
@@ -76,7 +77,7 @@ const Footer = () => {
           </p>
           <div className="knap">
             <a
-              href="materialer/mikkelruby-cv.pdf"
+              href={Materialer}
               target="_blank"
               rel="noopener noreferrer"
               className="forsideknap"
