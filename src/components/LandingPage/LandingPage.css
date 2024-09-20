@@ -31,7 +31,8 @@
 }
 
 .forside figure img {
-  width: 110%;
+  width: 120%;
+  margin-bottom: -10px;
   z-index: 2;
   animation: slideInLeft 1s forwards;
 }
