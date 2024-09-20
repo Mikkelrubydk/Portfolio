@@ -9,7 +9,7 @@ const basename = import.meta.env.MODE === "development" ? "/" : "/portfolio/";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/portfolio/"}>
       <App />
     </BrowserRouter>
   </StrictMode>
