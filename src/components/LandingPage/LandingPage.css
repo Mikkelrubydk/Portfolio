@@ -10,7 +10,7 @@
 
 .forsidecontainer {
   position: relative;
-  margin-top: 50p;
+  margin-top: 10px;
   animation: slideInLeft 1s forwards;
 }
 
@@ -31,16 +31,13 @@
 }
 
 .forside figure img {
-  max-width: 140%;
-  position: absolute;
-  right: -100px;
-  bottom: 0;
+  width: 110%;
   z-index: 2;
   animation: slideInLeft 1s forwards;
 }
 
 .forside article {
-  height: 100vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: left;
