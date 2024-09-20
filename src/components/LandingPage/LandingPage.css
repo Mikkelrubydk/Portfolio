@@ -31,10 +31,10 @@
 }
 
 .forside figure img {
-  width: 100%;
+  max-width: 140%;
   position: absolute;
-  right: 0;
-  bottom: -20px;
+  right: -100px;
+  bottom: 0;
   z-index: 2;
   animation: slideInLeft 1s forwards;
 }
