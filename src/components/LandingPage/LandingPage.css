@@ -31,7 +31,7 @@
 }
 
 .forside figure img {
-  width: 70%;
+  width: 90%;
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -50,7 +50,7 @@
 
 .forside article h2 {
   color: rgba(22, 49, 81, 1);
-  font-size: 14vw;
+  font-size: 11vw;
   font-weight: 800;
 }
 
@@ -89,7 +89,7 @@
 
 #check {
   position: absolute;
-  font-size: 30px;
+  font-size: 7vw;
   font-family: "Source Code Pro", sans-serif;
   margin: -35px 0;
   width: fit-content;
